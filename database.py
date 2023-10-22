@@ -1,7 +1,6 @@
 from pymongo.mongo_client import MongoClient
 import pprint
 
-uri = "mongodb+srv://nickagelid:vsFOCsG7a8qQgjSz@flaguess.auy4m9b.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri)
 
 def display(posts):
