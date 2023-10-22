@@ -1,6 +1,8 @@
 from pymongo.mongo_client import MongoClient
 import pprint
+import os
 
+uri = os.environ.get('uri')
 client = MongoClient(uri)
 
 def display(posts):
